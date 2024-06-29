@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url('https://static.wixstatic.com/media/923a1e_9f3fbca23c8b4c86955a8226452a36e4~mv2.png/v1/fill/w_640,h_286,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/923a1e_9f3fbca23c8b4c86955a8226452a36e4~mv2.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #c42036;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #c42036;
+}
+
+.section {
+    text-align: center;
+}
+
+.btn {
+    font-size: 3rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px 30px;
+    filter: grayscale();
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    filter: grayscale(0);
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.emoji-name {
+    font-weight: 600;
+    color: darkred;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
